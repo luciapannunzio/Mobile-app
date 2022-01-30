@@ -1,9 +1,11 @@
-/* .logo {
-  width: 1px;
-  height: 1px;
+.logo {
+  flex-grow: 1;
   display: flex;
   align-items: flex-start;
-  justify-content:flex-start;
-} */
+  justify-content: flex-start;
+}
 
-
+.logo img {
+  width: 4rem;
+  height: 2rem;
+}
