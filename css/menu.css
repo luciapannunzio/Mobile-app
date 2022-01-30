@@ -1,15 +1,17 @@
 header {
   width: 100vw;
-  height: 10vh;
+  height: 20vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   border: 2px red solid;
 }
 
 header div {
- flex-grow: 2;
- border: 2px blue solid;
+  width: 50rem;
+  border: 2px blue solid;
+  margin-left: 100rem;
+  margin-right: 50rem;
 } 
 
 nav ul {
@@ -17,6 +19,8 @@ nav ul {
   justify-content: space-around;
   border: 2px green solid;
   list-style: none;
+  margin-right: 100rem;
+  padding: 5px;
 }
 
 header nav ul li a {
@@ -24,4 +28,5 @@ header nav ul li a {
   color: var(--main-text-color);
   border: 2px purple solid;
   justify-content: space-evenly;
+  margin-right: 2rem;
 }

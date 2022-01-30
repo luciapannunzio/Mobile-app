@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  --button-color-green: green; 
-  --button-color-blue: blue; 
+  --button-color-green: #25D366; 
+  --button-color-blue: #1DA1F2; 
   --main-text-color: whitesmoke; 
 }

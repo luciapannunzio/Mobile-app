@@ -1,0 +1,86 @@
+.principal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-content: wrap;
+  border: 2px yellow solid;
+}
+
+.text {
+  width: 30vw;
+  height: 30vh;
+  color:var(  --main-text-color);
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+  margin-left: 8rem;
+  border: 2px brown solid;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+  width: 30vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 8rem;
+  border: 2px cyan solid;
+}
+
+#more {
+  width: 7rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color:var(  --main-text-color);
+  background-color:var(--button-color-green);
+  border-radius: 2%;
+}
+
+#send {
+  width: 7rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color:var(  --main-text-color);
+  background-color:var( --button-color-blue);
+  border-radius: 2%;
+}
+
+input[type="submit"] {
+ border: none;
+}
+
+.phone1 img {
+  width: 10vw;
+  height: 40vh;
+  margin-left: 70rem;
+  border:2px darkorange solid;
+}
+
+.phone2 img {
+  width: 10vw;
+  height: 40vh;
+  margin-left: 60rem;
+  border: 2px deeppink solid;
+}
