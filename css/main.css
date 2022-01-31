@@ -1,9 +1,8 @@
-.principal {
+.container {
   width: 100vw;
   height: 100vh;
   display: flex;
   align-content: wrap;
-  border: 2px yellow solid;
 }
 
 .text {
@@ -13,8 +12,7 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 5rem;
-  margin-left: 8rem;
-  border: 2px brown solid;
+  margin-left: 25rem;
 }
 
 h1 {
@@ -37,8 +35,7 @@ p {
   height: 5vh;
   display: flex;
   justify-content: space-around;
-  margin-left: 8rem;
-  border: 2px cyan solid;
+  margin-left: 25rem;
 }
 
 #more {
@@ -68,19 +65,31 @@ p {
 }
 
 input[type="submit"] {
- border: none;
+  border: none;
 }
 
-.phone1 img {
+.phones {
   width: 10vw;
-  height: 40vh;
-  margin-left: 70rem;
-  border:2px darkorange solid;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
 }
 
-.phone2 img {
-  width: 10vw;
-  height: 40vh;
-  margin-left: 60rem;
-  border: 2px deeppink solid;
+.phone1 {
+  width: 25vh;
+  height: 55vh;
+  left: 75rem;
+  top: 15rem;
+  bottom: 12rem;
+  position: absolute;
 }
+
+.phone2 {
+  width: 25vh;
+  height: 55vh;
+  top: 17rem;
+  left: 70rem;
+  bottom: 11rem;
+  position: absolute;
+}
+

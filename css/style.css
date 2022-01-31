@@ -15,4 +15,5 @@ body {
   height: 100vh;
   font-family: "Roboto" Arial, Helvetica, sans-serif;
   background-image:url(../images/bg_001.jpg);
+  background-size: 100%;
 }
