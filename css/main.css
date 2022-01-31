@@ -12,7 +12,7 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 5rem;
-  margin-left: 27rem;
+  margin-left: 25rem;
 }
 
 h1 {
@@ -35,7 +35,7 @@ p {
   height: 5vh;
   display: flex;
   justify-content: space-around;
-  margin-left: 27rem;
+  margin-left: 25rem;
 }
 
 #more {
